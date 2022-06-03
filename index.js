@@ -1,24 +1,27 @@
+
+
 const express = require('express');
 
-const port = 8001;
+const axios = require('axios')
+
+const cors = require('cors')
+
+const port = 8002;
 
 const app = express();
 
+// const data = require('./data.json');
 
-const data = require('./data.json');
-
-//const API_KEY = 'b08f383a-5592-41ae-ac67-fba9c0efee22'
+app.use(cors('*'));
 
 app.use(express.urlencoded({
     extended: true,
-
 }));
+
 
 app.get('/', (req, res) => {
     res.send('hello world').status(200);
 });
-
-
 
 // read all || get all
 app.get('/api/articles', (req, res) => {
@@ -93,6 +96,14 @@ app.delete('/api/articles/:id', (req, res) => {
         // else send a 404 error
         res.json({message: 'Article not found'}).status(404);
     }
+});
+
+app.get('/api/posts', async (req, res) => {
+    // get the api
+    // axios.get ('https://api.themoviedb.org/3/trending/movie/week?api_key=810d20cd28033dcbd7415fa0fa42c3de')
+    // .then(response => res.send(response.data).status(200))
+    const response = await axios.get('https://api.themoviedb.org/3/trending/movie/week?api_key=810d20cd28033dcbd7415fa0fa42c3de');
+    res.send(response.data).status(200);
 });
 
 // log server start

@@ -1,0 +1,293 @@
+{
+    "page": 1,
+    "results": [
+        {
+    "overview": "Professor Albus Dumbledore knows the powerful, dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts magizoologist Newt Scamander to lead an intrepid team of wizards and witches. They soon encounter an array of old and new beasts as they clash with Grindelwald's growing legion of followers.",
+    "release_date": "2022-04-06",
+    "id": 338953,
+    "genre_ids": [
+        14,
+        12,
+        28
+    ],
+    "poster_path":"https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uXs7wMtsfnBFuGVogAxJXZXshFU.jpg",
+    "title": "Fantastic Beasts: The Secrets of Dumbledore",
+    "media_type": "movie"
+},
+
+{
+    "release_date": "2022-03-30",
+    "genre_ids": [
+        28,
+        878,
+        14
+    ],
+    "poster_path": "https://image.tmdb.org/t/p/original/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
+    "title": "Morbius",
+    "id": 526896,
+    "overview": "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
+    "media_type": "movie"
+},
+{
+    "release_date": "2022-03-30",
+    "genre_ids": [
+        28,
+        14,
+        35,
+        10751,
+        12,
+        878
+    ],
+    "poster_path": "https://image.tmdb.org/t/p/original/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
+    "title": "Sonic the Hedgehog 2",
+    "id": 675353,
+    "overview": "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.",
+    "media_type": "movie"
+},
+{
+    "overview": "Decades after their successful television series was canceled, Chip and Dale must repair their broken friendship and take on their Rescue Rangers detective personas once again when a former cast mate mysteriously disappears.",
+    "release_date": "2022-05-18",
+    "genre_ids": [
+        16,
+        10751,
+        35,
+        12,
+        9648
+    ],
+    "id": 420821,
+    "poster_path": "https://image.tmdb.org/t/p/original/7UGmn8TyWPPzkjhLUW58cOUHjPS.jpg",
+    "title": "Chip 'n Dale: Rescue Rangers",
+    "media_type": "movie"
+},
+{
+    "genre_ids": [
+        28,
+        18
+    ],
+    "id": 361743,
+    "poster_path": "https://image.tmdb.org/t/p/original/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+    "overview": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen. Facing an uncertain future and confronting the ghosts of his past, Maverick is drawn into a confrontation with his own deepest fears, culminating in a mission that demands the ultimate sacrifice from those who will be chosen to fly it.",
+    "release_date": "2022-05-24",
+    "title": "Top Gun: Maverick",
+    "media_type": "movie"
+},
+{
+    "genre_ids": [
+        80,
+        9648,
+        53
+    ],
+    "poster_path": "/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "id": 414906,
+    "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+    "release_date": "2022-03-01",
+    "title": "The Batman",
+    "media_type": "movie"
+},
+{
+    "genre_ids": [
+        28,
+        12,
+        14,
+        53
+    ],
+    "title": "The Northman",
+    "poster_path": "/zhLKlUaF1SEpO58ppHIAyENkwgw.jpg",
+    "id": 639933,
+    "overview": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
+    "release_date": "2022-04-07",
+    "media_type": "movie"
+},
+{
+    "genre_ids": [
+        28,
+        12,
+        878
+    ],
+    "title": "Everything Everywhere All at Once",
+    "poster_path": "/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+    "overview": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+    "release_date": "2022-03-24",
+    "id": 545611,
+    "media_type": "movie"
+},
+{
+    "genre_ids": [
+        14,
+        28,
+        12
+    ],
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "poster_path": "/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+    "id": 453395,
+    "overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+    "release_date": "2022-05-04",
+    "media_type": "movie"
+},
+{
+    "genre_ids": [
+        28,
+        12,
+        35,
+        10749
+    ],
+    "title": "The Lost City",
+    "poster_path": "/neMZH82Stu91d3iqvLdNQfqPPyl.jpg",
+    "overview": "A reclusive romance novelist was sure nothing could be worse than getting stuck on a book tour with her cover model until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.",
+    "release_date": "2022-03-24",
+    "id": 752623,
+    "media_type": "movie"
+},
+{
+    "poster_path": "/4Q1n3TwieoULnuaztu9aFjqHDTI.jpg",
+    "overview": "Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.",
+    "release_date": "2022-04-28",
+    "id": 818397,
+    "genre_ids": [
+        28,
+        53,
+        80
+    ],
+
+"title": "Memory",
+    "media_type": "movie"
+},
+{
+    "genre_ids": [
+        28,
+        12
+    ],
+    "poster_path": "/tlZpSxYuBRoVJBOpUrPdQe9FmFq.jpg", 
+    "overview": "A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
+    "release_date": "2022-02-10",
+    "id": 335787,
+    "title": "Uncharted",
+    "media_type": "movie"
+},
+{
+    "genre_ids": [
+        28,
+        12,
+        878
+    ],
+    "original_title": "Spider-Man: No Way Home",
+    "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "id": 634649,
+    "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+    "release_date": "2021-12-15",
+    "title": "Spider-Man: No Way Home",
+    "media_type": "movie"
+},
+{
+    "title": "The Valet",
+    "overview": "World famous movie star Olivia faces a PR disaster when a paparazzi snaps a photo of her with her married lover, Vincent. The hard-working valet Antonio accidentally appears in the same photo and is enlisted to pose as Olivia’s new boyfriend as a cover-up. This ruse with Olivia thrusts Antonio into the spotlight and unexpected chaos.",
+    "release_date": "2022-05-11",
+    "id": 810171,
+    "genre_ids": [
+        35
+    ],
+    
+    
+    "poster_path": "/q7FmdJHKMLIC4XgWfcFRIu2iVdL.jpg",
+    "media_type": "movie"
+},
+{
+
+    "genre_ids": [
+        16,
+        35,
+        10751,
+        80
+    ],
+  
+    "original_title": "The Bad Guys",
+    "poster_path": "/7qop80YfuO0BwJa1uXk1DXUUEwv.jpg",
+    "title": "The Bad Guys",
+    "overview": "When the infamous Bad Guys are finally caught after years of countless heists and being the world’s most-wanted villains, Mr. Wolf brokers a deal to save them all from prison.",
+    "release_date": "2022-03-17",
+    "id": 629542,
+    "media_type": "movie"
+},
+{
+
+    "genre_ids": [
+        35,
+        18,
+        53
+    ],
+    "id": 819309,
+    "original_title": "Emergency",
+    "overview": "Ready for a night of legendary partying, three college students must weigh the pros and cons of calling the police when faced with an unexpected situation.",
+    "poster_path": "/jAvMlX3n9Fme3k1yFIVyqbLv2Nv.jpg",
+    "release_date": "2022-05-20",
+    "title": "Emergency",
+    "media_type": "movie"
+},
+{
+    "original_title": "Firestarter",
+    "poster_path": "/2MTGip0nfahQ1jPQCZSfCsPBZes.jpg",
+    "id": 532710,
+    "release_date": "2022-05-12",
+    "title": "Firestarter",
+    "overview": "For more than a decade, parents Andy and Vicky have been on the run, desperate to hide their daughter Charlie from a shadowy federal agency that wants to harness her unprecedented gift for creating fire into a weapon of mass destruction. Andy has taught Charlie how to defuse her power, which is triggered by anger or pain. But as Charlie turns 11, the fire becomes harder and harder to control. After an incident reveals the family's location, a mysterious operative is deployed to hunt down the family and seize Charlie once and for all. Charlie has other plans.",
+    "genre_ids": [
+        53,
+        14,
+        27
+    ],
+    "media_type": "movie"
+},
+{
+    
+    "original_title": "Thor: Love and Thunder",
+    "poster_path": "/ovKPIihU0NlWfiu2o5uHW9JBlea.jpg",
+    "title": "Thor: Love and Thunder",
+    "overview": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together, they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
+    "release_date": "2022-07-06",
+    "id": 616037,
+    "genre_ids": [
+        28,
+        12,
+        14
+    ],
+    "media_type": "movie"
+},
+{
+    "genre_ids": [
+        28,
+        18,
+        12
+    ],
+    "original_title": "Top Gun",
+    "poster_path": "/xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg",
+    "id": 744,
+    "overview": "For Lieutenant Pete 'Maverick' Mitchell and his friend and co-pilot Nick 'Goose' Bradshaw, being accepted into an elite training school for fighter pilots is a dream come true. But a tragedy, as well as personal demons, will threaten Pete's dreams of becoming an ace pilot.",
+    "release_date": "1986-05-16",
+    "title": "Top Gun",
+    "media_type": "movie"
+},
+{
+    "release_date": "2022-04-27",
+    "id": 829557,
+    "genre_ids": [
+        10749,
+        18
+    ],
+    "original_title": "365 Days: This Day",
+    "poster_path": "/7qU0SOVcQ8BTJLodcAlulUAG16C.jpg",
+    "title": "365 Days: This Day",
+    "overview": "Laura and Massimo are back and hotter than ever. But the reunited couple's new beginning is complicated by Massimo’s family ties and a mysterious man who enters Laura’s life to win her heart and trust, at any cost.",
+    "media_type": "movie"
+}
+],
+"total_pages": 1000,
+"total_results": 20000
+}
+
+
+
+
+
+
+
+
