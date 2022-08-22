@@ -99,11 +99,24 @@ app.delete('/api/articles/:id', (req, res) => {
 });
 
 app.get('/api/posts', async (req, res) => {
-    // get the api
-    // axios.get ('https://api.themoviedb.org/3/trending/movie/week?api_key=810d20cd28033dcbd7415fa0fa42c3de')
-    // .then(response => res.send(response.data).status(200))
-    const response = await axios.get('https://api.themoviedb.org/3/trending/movie/week?api_key=810d20cd28033dcbd7415fa0fa42c3de');
-    res.send(response.data).status(200);
+    try {
+        const response = await axios.get('https://api.themoviedb.org/3/trending/movie/week?api_key=810d20cd28033dcbd7415fa0fa42c3de');
+        res.send(response.data).status(200);
+    } catch (error) {
+        console.log(error)
+    }
+});
+
+app.get('/api/posts/:id', async (req, res) => {
+    const id = req.params.id
+    try {
+        const response = await axios.get('https://api.themoviedb.org/3/movie/'+ id + '?api_key=810d20cd28033dcbd7415fa0fa42c3de');
+        res.send(response.data).status(200);
+
+    } catch (error) {
+        console.log(error)
+    }
+
 });
 
 // log server start
