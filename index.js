@@ -31,57 +31,57 @@ app.get('/api/articles', (req, res) => {
 // read one || get one by Id
 // :id is a placeholder for the id of the article
 app.get('/api/articles/:id', (req, res) => {
-    // get the id from the url params
+    //  je get l'id de l'url params
     const id = parseInt(req.params.id);
-    // find the article in the data array
+    // trouver l'article dans la data
     const item = data.find(article => article.id === id);
-    // if the article is found
+    // si l'article est trouvé
     if(item){
-        // send the article
+        // envoie l'article
         res.json(item).status(200);
     } else {
-        // else send a 404 error
+        //  sinon envoie status 404
         res.json({message: 'Article not found'}).status(404);
     }
 });
 
 // create article
 app.post('/api/articles', (req, res) => {
-    // initialize a new article
+    // initialise un nouvel article
     const newArticle = {
-        // get the id from the data array + 1 to get the next id
+        // obtenir l'id  + 1 pour obtenir l'identifiant suivant
         id : data.length + 1,
-        // get the title from the body request (data send by the client)
+        // obtenir le title (données envoyées par le client)
         title : req.body.title
     }
-    // push the new article to the data array
+    // envoyer le nouvel article dans la data
     data.push(newArticle);
-    // send the new article to the client
+    // envoyer le nouvel article au client
     res.json(newArticle).status(201);
 });
 
-// update / edit article title
+// modifier l'article
 app.patch('/api/articles/:id', (req, res) => {
     // get the id from the url params
     const id = parseInt(req.params.id);
-    // find the article in the data array
+    //  trouver l'article dans la data
     const item = data.find(article => article.id === id);
 
-    // if the article is found
+    // si l' article est trouvé
     if(item){
         // update the article title
         item.title = req.body.title;
         // send the updated article to the client
         res.json({ data : item, message : "Article has been modified !"}).status(200);
     } else {
-        // else send a 404 error
+        //  sinon envoie status 404
         res.json({message: 'Article not found'}).status(404);
     }
 });
 
-// delete article by Id
+// effacer l'article par Id
 app.delete('/api/articles/:id', (req, res) => {
-    // get the id from the url params
+    // obtenir l'identifiant des paramètres d'url
     const id = parseInt(req.params.id);
     // find the article in the data array
     const item = data.find(article => article.id === id);
@@ -93,7 +93,7 @@ app.delete('/api/articles/:id', (req, res) => {
         // send a message to the client
         res.json({ message : "Article have been deleted !"}).status(200);
     } else {
-        // else send a 404 error
+        //  sinon envoie status 404
         res.json({message: 'Article not found'}).status(404);
     }
 });
